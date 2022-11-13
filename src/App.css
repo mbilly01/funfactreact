@@ -1,0 +1,74 @@
+.App {
+    background-color: rgb(48, 58, 68);
+}
+
+/* Header */
+
+header {
+    background-color: rgb(18, 15, 24);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 20px;
+}
+
+.logo {
+    color: rgb(71, 212, 255);
+    display: flex; 
+}
+
+
+.logo img {
+    width: 50px;
+}
+
+header p {
+    font-weight: 300;
+}
+
+/* End Of Header */
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    height: 85vh;
+}
+
+main h1 {
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 48px;
+}
+
+main li {
+    font-weight: 500;
+    font-size: large;
+
+}
+
+main ul {
+    padding-left: 75px;
+    padding-top: 15px;
+}
+
+
+main li {
+    margin-top: 20px;
+}
+
+li::marker {
+    color: rgb(71, 212, 255);
+}
+
+/* End Of Main */
+
+@media screen and (max-width:320px) {
+    main ul {
+        padding-left: 20px;
+    }
+} 
